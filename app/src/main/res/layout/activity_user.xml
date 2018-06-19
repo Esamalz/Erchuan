@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <ImageButton
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/plus1"
+            android:id="@+id/imageButton32"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="292dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/search"
+            android:id="@+id/imageButton33"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="389dp"
+        android:layout_weight="1.29"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="98dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="38dp"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/e172"
+                android:id="@+id/imageButton39"
+                android:layout_weight="0.20"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView15"
+                android:layout_weight="1.00" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="76dp"
+                    android:layout_height="45dp"></LinearLayout>
+
+                <Button
+                    android:text="设置"
+                    android:layout_width="62dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/button7" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="139dp">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="194dp"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/a36903c"
+                        android:id="@+id/imageButton41"
+                        android:background="@android:color/transparent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/c08ae113c72648119552432b66664a42"
+                        android:id="@+id/imageButton40" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.01">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="193dp"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/a365b983e86d60d7bc62b1579c50373"
+                        android:id="@+id/imageButton42" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="19dp"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/c9917ecc424"
+                        android:id="@+id/imageButton43" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.74"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            app:srcCompat="@drawable/home2"
+            android:id="@+id/imageButton36"
+            android:layout_weight="1.00"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/list3"
+            android:id="@+id/imageButton37"
+            android:layout_weight="1.00"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/chat1"
+            android:id="@+id/imageButton35"
+            android:background="@android:color/transparent"
+            android:layout_weight="0.69" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            app:srcCompat="@drawable/favorite1"
+            android:id="@+id/imageButton38"
+            android:background="@android:color/transparent"
+            android:layout_weight="0.54" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/user1"
+            android:id="@+id/imageButton34"
+            android:layout_weight="0.77"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+</LinearLayout>

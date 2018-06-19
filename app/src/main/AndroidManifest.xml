@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cc.erchuan.com.erchuan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+    </activity1>android:name=".ChatActivity" />
+    <activity android:name=".FavoriteActivity" />
+    <activity android:name=".IndexActivity" />
+    <activity android:name=".ListActivity" />
+    <activity android:name=".NewthingsActivity" />
+    <activity android:name=".ResearchActivity" />
+    <activity android:name=".JiemianActivity" />
+    <activity android:name=".jiemian3" />
+    <activity android:name=".jiemian2" />
+    <activity android:name=".UserActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
